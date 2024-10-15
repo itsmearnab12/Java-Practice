@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Game {
 
 
+    /*
+    Game Constructor
+     */
     public int Game() {
         Random random = new Random();
         int guessNum = random.nextInt(0,10);
