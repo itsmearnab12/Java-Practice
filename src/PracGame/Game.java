@@ -6,8 +6,6 @@ public class Game {
     /*
     Game default constructor
      */
-    // Note: it is not necessary to use constructor we can use method as well
-    // Note: Constructor name (Game) is equal to class name (Game) which is created
     public int Game() {
         Random random = new Random();
         int guessNum = random.nextInt(0,10);
@@ -24,7 +22,7 @@ public class Game {
         if (n == userIn) {
             return true;
         } else if (n < userIn) {
-            System.out.println("your value is high !");
+            System.out.println("Your value is high !");
             return false;
         } else if (n > userIn) {
             System.out.println("Your value is low !");
